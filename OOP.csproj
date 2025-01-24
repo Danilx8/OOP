@@ -42,11 +42,13 @@
     <ItemGroup>
         <Compile Include="1. Bounded Stack.cs" />
         <Compile Include="2. Linked List.cs" />
+        <Compile Include="3. TwoWayList.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <ItemGroup>
       <Content Include="Reflection\1. Bounded Stack.txt" />
+      <Content Include="Reflection\2. LinkedList" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
