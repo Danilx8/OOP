@@ -15,7 +15,11 @@ namespace OOP
         // Команды
         // Предусловие: индекс лежит внутри очереди
         // Постусловие: справа от указанного индекса помещается новый элемент
-        public abstract void Put(int i, T item);
+        public abstract void PutRight(int i, T item);
+
+        // Предусловие: индекс лежит внутри очереди
+        // Постусловие: слева от указанного индекса помещается новый элемент
+        public abstract void PutLeft(int i, T item);
 
         // Предусловие: индекс i лежит внутри очереди
         // Постусловие: элемент по указанному индексу удаляется 
@@ -30,7 +34,8 @@ namespace OOP
         public abstract void Enqueue(T item);
 
         public abstract int GetGetStatus(); // успешно; индекс за пределами очереди
-        public abstract int GetPutStatus(); // успешно; индекс за пределами очереди
+        public abstract int GetPutRightStatus(); // успешно; индекс за пределами очереди; длина очереди равна максимуму
+        public abstract int GetPutLeftStatus(); // успешно; индекс за пределами очереди; длина очереди равна максимуму
         public abstract int GetRemoveStatus(); // успешно; индекс за пределами очереди
         public abstract int GetDequeueStatus(); // успешно; очередь пустая
         public abstract int GetEnqueueStatus(); // успешно; длина очереди равна максимуму
