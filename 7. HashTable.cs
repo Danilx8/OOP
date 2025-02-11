@@ -14,7 +14,9 @@ namespace OOP
         public abstract void Remove(T value);
         
         // Запросы
-        public abstract bool Find(T value);
+        public abstract bool Find(T value); // Содержится ли значение value в таблице
+
+        public abstract int Size(); // Количество элементов в таблице
         
         // Запросы статусов
         public abstract int GetPutStatus(); // успешно; таблица заполнена; коллизия разрешилась неудачно

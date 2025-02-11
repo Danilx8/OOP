@@ -48,6 +48,7 @@
         <Compile Include="6. Deque.cs" />
         <Compile Include="7. HashTable.cs" />
         <Compile Include="8. NativeDictionary.cs" />
+        <Compile Include="9. Set.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
@@ -59,6 +60,7 @@
       <Content Include="Reflection\5. Queue" />
       <Content Include="Reflection\6. Deque" />
       <Content Include="Reflection\7. HashTable" />
+      <Content Include="Reflection\8. NativeDictionary" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
