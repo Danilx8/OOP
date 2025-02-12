@@ -3,11 +3,11 @@ namespace OOP
     public abstract class BloomFilter<T>
     {
         // Конструктор
-        // Постусловие: создаётся битовый массив длиной fLen
+        // Постусловие: создаётся фильтр блюма длиной fLen
         public abstract BloomFilter<T> BloomFilter(int fLen);
         
         // Команды
-        // Предусловие: размер фмльтра не достиг лимита
+        // Предусловие: значения нет в фильтре
         // Постусловие: новое значение добавлено в фильтр
         public abstract void Add(T value);
         
@@ -16,6 +16,6 @@ namespace OOP
         public abstract int Size(); // возврат размера фильтра (указанного при создании)
         
         // Дополнительные запросы
-        public abstract int GetAddStatus(); // успех; достигнут лимит; значение возможно уже добавлено
+        public abstract int GetAddStatus(); // успех; значение возможно уже добавлено
     }
 }
