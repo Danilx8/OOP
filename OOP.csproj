@@ -41,6 +41,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="1. Bounded Stack.cs" />
+        <Compile Include="10. BloomFilter.cs" />
         <Compile Include="2. Linked List.cs" />
         <Compile Include="3. TwoWayList.cs" />
         <Compile Include="4. DynamicArray.cs" />
@@ -61,6 +62,7 @@
       <Content Include="Reflection\6. Deque" />
       <Content Include="Reflection\7. HashTable" />
       <Content Include="Reflection\8. NativeDictionary" />
+      <Content Include="Reflection\9. Set" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
