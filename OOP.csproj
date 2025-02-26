@@ -40,16 +40,17 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="1. Bounded Stack.cs" />
-        <Compile Include="10. BloomFilter.cs" />
-        <Compile Include="2. Linked List.cs" />
-        <Compile Include="3. TwoWayList.cs" />
-        <Compile Include="4. DynamicArray.cs" />
-        <Compile Include="5. Queue.cs" />
-        <Compile Include="6. Deque.cs" />
-        <Compile Include="7. HashTable.cs" />
-        <Compile Include="8. NativeDictionary.cs" />
-        <Compile Include="9. Set.cs" />
+        <Compile Include="1\1. Bounded Stack.cs" />
+        <Compile Include="1\10. BloomFilter.cs" />
+        <Compile Include="1\2. Linked List.cs" />
+        <Compile Include="1\3. TwoWayList.cs" />
+        <Compile Include="1\4. DynamicArray.cs" />
+        <Compile Include="1\5. Queue.cs" />
+        <Compile Include="1\6. Deque.cs" />
+        <Compile Include="1\7. HashTable.cs" />
+        <Compile Include="1\8. NativeDictionary.cs" />
+        <Compile Include="1\9. Set.cs" />
+        <Compile Include="2\1. ICP.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
