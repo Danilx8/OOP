@@ -1,5 +1,3 @@
-using System;
-
 namespace OOP
 {
     // Родительский класс. Реализует метод ParseToString
