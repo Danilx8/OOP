@@ -52,7 +52,6 @@
         <Compile Include="1\9. Set.cs" />
         <Compile Include="2\1. ICP.cs" />
         <Compile Include="2\2. Inheritance.cs" />
-        <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <ItemGroup>
@@ -65,6 +64,7 @@
       <Content Include="1\Reflection\7. HashTable" />
       <Content Include="1\Reflection\8. NativeDictionary" />
       <Content Include="1\Reflection\9. Set" />
+      <Content Include="2\3. Class as a module" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
