@@ -65,6 +65,7 @@
       <Content Include="1\Reflection\8. NativeDictionary" />
       <Content Include="1\Reflection\9. Set" />
       <Content Include="2\3. Class as a module" />
+      <Content Include="2\4. OCP" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
