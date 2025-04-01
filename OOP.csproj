@@ -52,6 +52,7 @@
         <Compile Include="1\9. Set.cs" />
         <Compile Include="2\1. ICP.cs" />
         <Compile Include="2\2. Inheritance.cs" />
+        <Compile Include="2\7. Dynamic coupling.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <ItemGroup>
