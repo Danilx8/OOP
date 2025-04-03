@@ -1,9 +1,12 @@
 namespace OOP
 {
-    public abstract class ParentQueue<T> {
+    public abstract class ParentQueue<T>
+    {
         // Конструктор
-        public ParentQueue<T> ParentQueue();
-        
+        public ParentQueue()
+        {
+        }
+
         // Команды
         // предусловие: очередь не пуста;
         // постусловие: из головы очереди удалён элемент
@@ -11,7 +14,7 @@ namespace OOP
 
         // Постусловие: в конец очереди помещается новый элемент
         public abstract void AddTail(T item);
-        
+
         // Запросы
         // предусловие: очередь не пуста
         public abstract T Get(); // получить элемент из головы очереди; 
@@ -26,13 +29,17 @@ namespace OOP
     public abstract class NewQueue<T> : ParentQueue<T>
     {
         // Конструктор
-        public NewQueue<T> NewQueue();
+        public NewQueue()
+        {
+        }
     }
-    
+
     public abstract class Deque<T> : ParentQueue<T>
     {
         // Конструктор
-        public Deque<T> Deque();
+        public Deque()
+        {
+        }
 
         // Команды
         // Постусловие: в голову очереди помещается новый элемент 
@@ -41,7 +48,7 @@ namespace OOP
         // Предусловие: очередь не пуста
         // Постусловие: из хвоста очереди удален элемент
         public abstract T RemoveTail();
-        
+
         // запросы статусов (возможные значения статусов)
         public abstract int GetRemoveTailStatus(); // успешно; очередь пуста
     }
