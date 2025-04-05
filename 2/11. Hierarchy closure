@@ -1,0 +1,35 @@
+К сожалению, в C# нет множественного наследования.
+Ниже в виде псевдокода привёл пару примеров использования объекта Void типа None:
+
+/* Объявление глобальной переменной
+    None Void = new None();
+*/
+
+/* 1. Проверка на отсутствие значения в бд
+    user = Users.First(id == inputId)
+    if (user == Void) then
+        return "404"
+*/
+
+/* 2.Вольная интерпретация сортировки сталина
+    arsonists = new List {
+        11,
+        1,
+        4,
+        2,
+        8,
+        12
+        5,
+        7,
+        3,
+    }
+    
+    max = arsonists[0]
+    foreach(arsonist in arsonists) {
+        if max > arsonist {
+            element = Void
+        } else {
+            max = element
+        }
+    }
+*/

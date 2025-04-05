@@ -173,6 +173,7 @@
       <Content Include="1\Reflection\7. HashTable" />
       <Content Include="1\Reflection\8. NativeDictionary" />
       <Content Include="1\Reflection\9. Set" />
+      <Content Include="2\11. Hierarchy closure" />
       <Content Include="2\3. Class as a module" />
       <Content Include="2\4. OCP" />
       <Content Include="2\5. Module reusage principles" />
