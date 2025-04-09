@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 namespace OOP
 {
     // В C# класс и так нельзя менять, если его методам не присвоено ключевое слово virtual, а свойства закрыты
-    public class General : Object, IComparable
+    public partial class General : Object, IComparable
     {
         // Запрос (глубоко копирует ЭТОТ объект в уже существующий объект, переданный в качестве аргумента по ссылке)
         public void CopyTo(General destination)

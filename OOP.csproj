@@ -156,6 +156,7 @@
         <Compile Include="1\9. Set.cs" />
         <Compile Include="2\1. ICP.cs" />
         <Compile Include="2\10. OCP appliance to class hierarchy.cs" />
+        <Compile Include="2\12. Assignment attempt.cs" />
         <Compile Include="2\2. Inheritance.cs" />
         <Compile Include="2\7. Dynamic coupling.cs" />
         <Compile Include="2\8. Co_Contravariance.cs" />
