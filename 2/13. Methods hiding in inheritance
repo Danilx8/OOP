@@ -1,0 +1,32 @@
+1. Обычное public обеспечивает публичность методов и в родительском, и в дочернем классе. По дефолту все методы приватные
+
+public class Model {
+    private int id = 0;
+    
+    public int GetId() {
+        return id;
+    }
+} 
+
+public class User : Model {
+}
+
+User user = new User();
+Console.WriteLine(user.GetId()); // Возвращает ID, равный 0
+
+4. Приватные методы в C# не наследуются вообще, но методы, отмеченные как protected позволяют ограничить видимость 
+методов с сохранением возможности их наследования.
+
+public class JsonString {
+    private json value;
+    
+    public json Value() {
+        return value;
+    }
+    
+    protected void ReadSystemString(string newValue) {
+        value = Convert(newValue);
+    }
+}
+
+Случаи 2 и 3 не реализуемы в С#. При наследовании класса другим классом видимость всех методов сохраняется как в родительском
