@@ -157,11 +157,13 @@
         <Compile Include="2\1. ICP.cs" />
         <Compile Include="2\10. OCP appliance to class hierarchy.cs" />
         <Compile Include="2\12. Assignment attempt.cs" />
+        <Compile Include="2\14. Inheritance, polymorphism and generic types.cs" />
         <Compile Include="2\2. Inheritance.cs" />
         <Compile Include="2\7. Dynamic coupling.cs" />
         <Compile Include="2\8. Co_Contravariance.cs" />
         <Compile Include="2\9. BaseHierarchy.cs" />
         <Compile Include="2\Tests\9. AnyTests.cs" />
+        <Compile Include="2\Tests\14. ObjectsSum.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
