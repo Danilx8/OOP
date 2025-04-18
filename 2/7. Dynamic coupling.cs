@@ -42,7 +42,7 @@ namespace OOP
         }
     }
 
-    public class Main
+    public partial class Main
     {
         public Main()
         {

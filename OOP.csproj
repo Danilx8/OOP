@@ -158,6 +158,7 @@
         <Compile Include="2\10. OCP appliance to class hierarchy.cs" />
         <Compile Include="2\12. Assignment attempt.cs" />
         <Compile Include="2\14. Inheritance, polymorphism and generic types.cs" />
+        <Compile Include="2\16. Polymorphic and covariant invokations.cs" />
         <Compile Include="2\2. Inheritance.cs" />
         <Compile Include="2\7. Dynamic coupling.cs" />
         <Compile Include="2\8. Co_Contravariance.cs" />
