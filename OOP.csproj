@@ -186,6 +186,7 @@
       <Content Include="2\18. Has-a relationship" />
       <Content Include="2\19. Restriction and extension inheritance" />
       <Content Include="2\20. Variations, reification and structure inheritance" />
+      <Content Include="2\22.Type inheritance and polymorphism" />
       <Content Include="2\3. Class as a module" />
       <Content Include="2\4. OCP" />
       <Content Include="2\5. Module reusage principles" />
