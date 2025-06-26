@@ -194,6 +194,7 @@
       <Content Include="2\5. Module reusage principles" />
       <Content Include="2\6. Module conflicts" />
       <Content Include="3\System description" />
+      <Content Include="3\System limitations" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
