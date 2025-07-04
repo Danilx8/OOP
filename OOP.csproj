@@ -193,8 +193,9 @@
       <Content Include="2\4. OCP" />
       <Content Include="2\5. Module reusage principles" />
       <Content Include="2\6. Module conflicts" />
-      <Content Include="3\System description" />
-      <Content Include="3\System limitations" />
+      <Content Include="3\3. Analysis classes" />
+      <Content Include="3\1. System description" />
+      <Content Include="3\2. System limitations" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
