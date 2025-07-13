@@ -197,6 +197,7 @@
       <Content Include="3\1. System description" />
       <Content Include="3\2. System limitations" />
       <Content Include="3\4. Implementation classes" />
+      <Content Include="3\5. Design classes" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
