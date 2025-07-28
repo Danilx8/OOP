@@ -199,6 +199,7 @@
       <Content Include="3\4. Implementation classes" />
       <Content Include="3\5. Design classes" />
       <Content Include="3\6. Bad classes elmination" />
+      <Content Include="3\7. Clusters creation" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
