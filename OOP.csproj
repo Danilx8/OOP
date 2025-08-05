@@ -201,6 +201,7 @@
       <Content Include="3\6. Bad classes elmination" />
       <Content Include="3\7. Clusters creation" />
       <Content Include="3\8. Specifications" />
+      <Content Include="3\9. Final steps of OOAP" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
